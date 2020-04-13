@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body{
+background-image: url('https://images.pexels.com/photos/531767/pexels-photo-531767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+
+.weatherContainerApp{
+    background-color: whitesmoke;
+    width: 30em;
+    text-align: center;
+    margin: 4em auto;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.486);
+    height:32em;
+}
+
+.weather__info{
+    text-align: left;
+    padding-left: 8.6em;
+    padding-bottom: 1.2em;
+    font-size: 1.2rem;
+}
+
+form input{
+    background-color: transparent;
+    color: black;
+    height: 2em;
+    margin-top: 0.7em;
+    outline: none;
+    font-size: 1.5em;
+    border:1px solid;
+    border-color: transparent transparent  black transparent;
+}
+
+::placeholder{
+    color:black;
+}
+
+.weather__error{
+    color: red;
+    padding: 2em 2em;
+    margin: 0em -4em;
+}
